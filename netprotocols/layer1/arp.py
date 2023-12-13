@@ -7,7 +7,7 @@ __author__ = "EONRaider @ keybase.io/eonraider"
 from ctypes import c_ubyte, c_uint8, c_uint16
 
 from netprotocols import Protocol
-from netprotocols.layer2.ethernet import Ethernet
+from netprotocols.layer1.ethernet import Ethernet
 
 
 class ARP(Protocol):  # IETF RFC 826
